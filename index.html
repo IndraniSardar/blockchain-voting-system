@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+<title>Blockchain Voting System</title>
+<link rel="stylesheet" href="style.css">
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/ethers/5.7.2/ethers.umd.min.js"></script>
+
+</head>
+
+<body>
+
+<h1>Blockchain Voting System</h1>
+
+<button onclick="connectWallet()">Connect Wallet</button>
+<p id="wallet"></p>
+
+<div class="card">
+
+<h2>Candidates</h2>
+
+<div class="candidate">
+<h3>Alice</h3>
+<button onclick="vote(0)">Vote</button>
+</div>
+
+<div class="candidate">
+<h3>Bob</h3>
+<button onclick="vote(1)">Vote</button>
+</div>
+
+</div>
+
+<div class="card">
+<h2>Results</h2>
+<p id="result">Loading...</p>
+</div>
+
+<script src="script.js"></scrip>
+
+</body>
+</html>
